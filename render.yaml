@@ -1,7 +1,7 @@
 services:
   - type: web
     name: jankiz-telegram-bot
-    env: python
+    runtime: python
     region: frankfurt
     plan: free
     buildCommand: pip install -r requirements.txt
